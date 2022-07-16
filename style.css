@@ -625,7 +625,7 @@ nav .menu li:last-child .social__links {
     margin-left: 0.8928em;
     display: grid;
     grid-gap: 0.8928em;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 240px));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 240px));
 }
 
 #cpc__youtube__videos .all__videos .small__videos iframe {
