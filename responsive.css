@@ -101,6 +101,22 @@
     #cpc__youtube__videos .all__videos .big__video {
         height: auto;
     }
+
+    /* Wings Page Start */
+
+    #our__wings h1 {
+        font-size: 3em;
+    }
+
+    #our__wings p {
+        font-size: 1em;
+    }
+
+    #our__wings h2 {
+        font-size: 1.5em;
+    }
+
+    /* Wings Page End */
 }
 
 @media screen and (max-width: 900px) {
@@ -140,6 +156,22 @@
         font-size: 2.5em;
         margin: 0 5px;
     }
+
+    /* Wings Page Start */
+
+    #our__wings h1 {
+        font-size: 2.5em;
+    }
+
+    #our__wings p {
+        font-size: 0.8em;
+    }
+
+    #our__wings h2 {
+        font-size: 1.2em;
+    }
+
+    /* Wings Page End */
 
 }
 
@@ -224,4 +256,20 @@
     #wings__section .cards .card {
         font-size: 0.6rem;
     }
+
+    /* Wings Page Start */
+
+    #our__wings h1 {
+        font-size: 2em;
+    }
+
+    #our__wings p {
+        font-size: 0.6em;
+    }
+
+    #our__wings h2 {
+        font-size: 0.9em;
+    }
+
+    /* Wings Page End */
 }
