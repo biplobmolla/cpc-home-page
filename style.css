@@ -781,6 +781,9 @@ nav .menu li:last-child .social__links {
     border: 0;
     border-radius: 1em;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card__bg__text {

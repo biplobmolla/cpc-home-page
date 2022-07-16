@@ -171,6 +171,10 @@
         font-size: 1.2em;
     }
 
+    #our__wings .card__desc p {
+        font-size: 1.5em;
+    }
+
     /* Wings Page End */
 
 }
@@ -203,6 +207,31 @@
     .section__title {
         font-size: 1em;
     }
+
+    /* Wings Page Start */
+
+    #our__wings {
+        font-size: 0.5em;
+    }
+
+    #our__wings h1 {
+        font-size: 2em;
+    }
+
+    #our__wings p {
+        font-size: 0.8em;
+    }
+
+    #our__wings h2 {
+        font-size: 1em;
+    }
+
+    #our__wings .cards .card .card__bg {
+        height: 38em;
+    }
+
+
+    /* Wings Page End */
 }
 
 @media screen and (max-width: 560px) {
@@ -259,7 +288,7 @@
 
     /* Wings Page Start */
 
-    #our__wings h1 {
+    /* #our__wings h1 {
         font-size: 2em;
     }
 
@@ -269,7 +298,7 @@
 
     #our__wings h2 {
         font-size: 0.9em;
-    }
+    } */
 
     /* Wings Page End */
 }
