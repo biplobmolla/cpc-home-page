@@ -173,6 +173,12 @@
     }
 }
 
+@media screen and (max-width: 560px) {
+    #cpc__youtube__videos .all__videos .small__videos {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 130px));
+    }
+}
+
 @media screen and (max-width: 350px) {
 
     #team__members .pagination .previus,
