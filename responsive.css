@@ -1,0 +1,187 @@
+@media screen and (max-width: 1330px) {
+    #cpc__youtube__videos .all__videos {
+        flex-direction: column;
+    }
+
+    #cpc__youtube__videos .all__videos .small__videos {
+        justify-content: center;
+    }
+
+    #team__members .pagination .previus,
+    #team__members .pagination .next {
+        font-size: 0.8em;
+    }
+
+    #team__members .pagination li i {
+        font-size: 0.8em;
+    }
+
+    #team__members .pagination .present {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    nav .menu li:not(:first-child) a {
+        margin-left: 1em;
+    }
+
+    .social__links ul li:not(:first-child) a {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    nav .social__links {
+        display: none;
+    }
+
+    nav .menu li:last-child .social__links {
+        display: block;
+        margin-top: 50px;
+    }
+
+    nav .menu li:last-child .social__links span {
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    nav .menu {
+        position: fixed;
+        top: 0;
+        right: -200%;
+        height: 100%;
+        background-color: red;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    nav .menu li a {
+        font-size: 20px;
+        color: #fff;
+        width: 100%;
+        margin: 0 !important;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    nav .menu li .active {
+        border: 0;
+        color: black;
+    }
+
+    #nav__menu__icon {
+        display: block;
+    }
+
+    #nav__menu__close__icon {
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    #contact .row {
+        justify-content: center;
+    }
+
+    #contact .row .col:not(:first-child) {
+        margin-left: 0;
+    }
+
+    #cpc__youtube__videos .all__videos {
+        width: 100%;
+    }
+
+    #cpc__youtube__videos .all__videos .big__video {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .max__width {
+        width: 90%;
+    }
+
+    #form {
+        font-size: 0.3em;
+    }
+
+    .section__title {
+        font-size: 1em;
+    }
+
+    #big__video {
+        width: 100%;
+    }
+
+    .days,
+    .hours,
+    .mins {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #events__links {
+        font-size: 0.3rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #hero__section {
+        font-size: 0.5rem;
+    }
+
+    #footer .max__width span {
+        font-size: 0.7em;
+    }
+
+    #form {
+        font-size: 0.2em;
+    }
+
+    #wings__section {
+        font-size: 0.6rem;
+    }
+
+    nav .menu {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    #team__members .pagination .previus,
+    #team__members .pagination .next {
+        font-size: 0.5em;
+    }
+
+    #team__members .pagination li i {
+        font-size: 0.5em;
+    }
+
+    #team__members .pagination .present {
+        font-size: 0.75em;
+    }
+
+    #hero__section {
+        font-size: 0.25rem;
+    }
+
+    .days,
+    .hours,
+    .mins {
+        font-size: 0.5em;
+    }
+
+    nav .menu {
+        width: 100%;
+    }
+}
