@@ -113,7 +113,7 @@
     }
 
     .section__title {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     #big__video {
@@ -125,11 +125,20 @@
     .mins {
         font-size: 0.7em;
     }
+
+    #form .rows .row .input__field label {
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 700px) {
     #events__links {
         font-size: 0.3rem;
+    }
+
+    .event__details .arrow {
+        font-size: 2.5em;
+        margin: 0 5px;
     }
 
 }
@@ -153,6 +162,14 @@
 
     nav .menu {
         width: 50%;
+    }
+
+    #form .rows .row .input__field label {
+        font-size: 2.4em;
+    }
+
+    .section__title {
+        font-size: 1em;
     }
 }
 
@@ -183,5 +200,22 @@
 
     nav .menu {
         width: 100%;
+    }
+
+    .form__title {
+        display: none;
+    }
+
+    nav .menu li:last-child .social__links {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .section__title {
+        font-size: 0.8em;
+    }
+
+    #wings__section .cards .card {
+        font-size: 0.6rem;
     }
 }

@@ -40,6 +40,7 @@ nav .menu {
     font-size: 1em;
     position: relative;
     transition: 0.4s;
+    z-index: 999;
 }
 
 nav .menu li a {
@@ -501,7 +502,9 @@ nav .menu li:last-child .social__links {
 
 .form__title {
     font-size: 9em;
-    padding: 0.8em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #015694;
 }
 
@@ -509,6 +512,7 @@ nav .menu li:last-child .social__links {
     font-size: 1em;
     transform: rotateZ(-90deg);
     color: rgba(255, 255, 255, 0.05);
+    line-height: 0;
 }
 
 #form .rows {
