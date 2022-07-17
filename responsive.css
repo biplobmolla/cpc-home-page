@@ -200,6 +200,10 @@
         font-size: 1em;
     }
 
+    .form__title {
+        display: none;
+    }
+
     /* Wings Page Start */
 
     #our__wings {
@@ -221,7 +225,6 @@
     #our__wings .cards .card .card__bg {
         height: 38em;
     }
-
 
     /* Wings Page End */
 }
@@ -259,10 +262,6 @@
 
     nav .menu {
         width: 100%;
-    }
-
-    .form__title {
-        display: none;
     }
 
     nav .menu li:last-child .social__links {
