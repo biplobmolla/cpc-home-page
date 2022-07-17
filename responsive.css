@@ -185,7 +185,8 @@
     }
 
     #footer .max__width span {
-        font-size: 0.7em;
+        font-size: 0.75em;
+        text-align: center;
     }
 
     #wings__section {

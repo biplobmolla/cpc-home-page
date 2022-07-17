@@ -755,6 +755,10 @@ nav .menu li:last-child .social__links {
     margin-top: 4.375em;
 }
 
+#our__wings .section__title {
+    font-size: 3em;
+}
+
 #our__wings .cards,
 #our__wings .card {
     width: 100%;
