@@ -145,6 +145,14 @@
     #form .rows .row .input__field label {
         font-size: 2em;
     }
+
+    /* Certificate Secton Start */
+
+    .select {
+        font-size: 0.8em;
+    }
+
+    /* Certificate Secton End */
 }
 
 @media screen and (max-width: 700px) {
@@ -177,9 +185,30 @@
 
     /* Wings Page End */
 
+    /* Certificate Secton Start */
+
+    .select {
+        font-size: 0.6em;
+    }
+
+    /* Certificate Secton End */
+
+    /* Blogs Section Start */
+
+    #blogs .cards {
+        font-size: 0.8rem;
+    }
+
+    /* Blogs Section End */
+
 }
 
 @media screen and (max-width: 500px) {
+    nav a img {
+        width: 6em;
+        height: 3em;
+    }
+
     #hero__section {
         font-size: 0.5rem;
     }
@@ -205,6 +234,10 @@
         display: none;
     }
 
+    nav .menu {
+        width: 100%;
+    }
+
     /* Wings Page Start */
 
     #our__wings {
@@ -228,6 +261,27 @@
     }
 
     /* Wings Page End */
+
+    /* Certificate Secton Start */
+
+    .select {
+        font-size: 0.45em;
+    }
+
+    /* Certificate Secton End */
+
+    /* Blogs Section Start */
+
+    #blogs .cards .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #blogs .cards .card .blog__info {
+        margin-left: 0;
+    }
+
+    /* Blogs Section End */
 }
 
 @media screen and (max-width: 560px) {
@@ -261,10 +315,6 @@
         font-size: 0.5em;
     }
 
-    nav .menu {
-        width: 100%;
-    }
-
     nav .menu li:last-child .social__links {
         display: block;
         margin-top: 20px;
@@ -293,4 +343,12 @@
     } */
 
     /* Wings Page End */
+
+    /* Certificate Secton Start */
+
+    .select {
+        font-size: 0.4em;
+    }
+
+    /* Certificate Secton End */
 }
