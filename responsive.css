@@ -108,11 +108,12 @@
         color: black;
     }
 
-    #nav__menu__icon {
+    .nav__menu__icon,
+    .nav__menu__close__icon {
         display: block;
     }
 
-    #nav__menu__close__icon {
+    .nav__menu__close__icon {
         font-size: 20px;
         color: #fff;
         position: absolute;

@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-#nav__menu__icon {
+.nav__menu__icon {
     display: none;
 }
 
@@ -28,6 +28,10 @@ nav .max__width {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav__menu__close__icon {
+    display: none;
 }
 
 nav a img {
@@ -91,12 +95,12 @@ nav .menu li .active {
     margin-left: 18px;
 }
 
-#nav__menu__icon {
+.nav__menu__icon {
     font-size: 24px;
     padding: 10px 10px;
 }
 
-#nav__menu__icon:hover {
+.nav__menu__icon:hover {
     background-color: rgba(0, 0, 0, 0.25);
     border: 0;
     border-radius: 4px;

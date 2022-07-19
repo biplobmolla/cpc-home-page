@@ -1,5 +1,5 @@
-var navMenuIcon = document.querySelector("#nav__menu__icon");
-var navMenuCloseIcon = document.querySelector("#nav__menu__close__icon");
+var navMenuIcon = document.querySelector(".nav__menu__icon");
+var navMenuCloseIcon = document.querySelector(".nav__menu__close__icon");
 var menu = document.querySelector(".menu");
 
 navMenuIcon.addEventListener("click", () => {
