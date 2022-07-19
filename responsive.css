@@ -253,6 +253,12 @@
 
     /* Meet The Team Section Start */
 
+    .core__team__members .member__infos,
+    .team__members .member__infos {
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+
     #meet__the__team .select {
         font-size: 0.45em;
     }
