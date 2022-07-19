@@ -19,6 +19,32 @@
     #team__members .pagination .present {
         font-size: 1em;
     }
+
+    /* Meet The Team Section Start */
+
+    #meet__the__team .select {
+        font-size: 0.75em;
+    }
+
+    .find__member {
+        font-size: 0.7rem;
+    }
+
+    /* Meet The Team Section End */
+}
+
+@media screen and (max-width: 1150px) {
+    /* Meet The Team Section Start */
+
+    #meet__the__team .select {
+        font-size: 0.7em;
+    }
+
+    .find__member {
+        font-size: 0.6rem;
+    }
+
+    /* Meet The Team Section End */
 }
 
 @media screen and (max-width: 1180px) {
@@ -117,6 +143,18 @@
     }
 
     /* Wings Page End */
+
+    /* Meet The Team Section Start */
+
+    #meet__the__team .select {
+        font-size: 0.6em;
+    }
+
+    .find__member {
+        font-size: 0.45rem;
+    }
+
+    /* Meet The Team Section End */
 }
 
 @media screen and (max-width: 900px) {
@@ -146,6 +184,22 @@
         font-size: 2em;
     }
 
+    /* Our Wings Section Start */
+
+    #our__wings .card__bg__text h1 {
+        font-size: 3em;
+    }
+
+    #our__wings .card__bg__text p {
+        font-size: 1.3em;
+    }
+
+    #our__wings .card__bg__text h2 {
+        font-size: 1.8em;
+    }
+
+    /* Our Wings Section End */
+
     /* Certificate Secton Start */
 
     .select {
@@ -165,25 +219,21 @@
         margin: 0 5px;
     }
 
-    /* Wings Page Start */
+    /* Our Wings Section Start */
 
-    #our__wings h1 {
+    #our__wings .card__bg__text h1 {
         font-size: 2.5em;
     }
 
-    #our__wings p {
+    #our__wings .card__bg__text p {
         font-size: 0.8em;
     }
 
-    #our__wings h2 {
+    #our__wings .card__bg__text h2 {
         font-size: 1.2em;
     }
 
-    #our__wings .card__desc p {
-        font-size: 1.5em;
-    }
-
-    /* Wings Page End */
+    /* Our Wings Section End */
 
     /* Certificate Secton Start */
 
@@ -201,6 +251,81 @@
 
     /* Blogs Section End */
 
+    /* Meet The Team Section Start */
+
+    #meet__the__team .select {
+        font-size: 0.45em;
+    }
+
+    .find__member {
+        font-size: 0.35rem;
+    }
+
+    /* Meet The Team Section End */
+
+}
+
+
+@media screen and (max-width: 560px) {
+    #cpc__youtube__videos .all__videos .small__videos {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 130px));
+    }
+
+    /* Wings Page Start */
+
+    #our__wings {
+        font-size: 0.5em;
+    }
+
+    #our__wings h1 {
+        font-size: 2em;
+    }
+
+    #our__wings p {
+        font-size: 0.8em;
+    }
+
+    #our__wings h2 {
+        font-size: 1em;
+    }
+
+    #our__wings .cards .card .card__bg {
+        height: 38em;
+    }
+
+    /* Wings Page End */
+
+    /* Meet The Team Section Start */
+
+    #meet__the__team .select {
+        font-size: 0.3em;
+    }
+
+    #meet__the__team hr {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .find__member {
+        font-size: 0.3rem;
+    }
+
+    .search__member {
+        flex-direction: column;
+    }
+
+    .search__member button {
+        margin-top: 5px;
+    }
+
+    .core__team__members .member__infos,
+    .team__members .member__infos {
+        grid-gap: 20px;
+        justify-content: center;
+    }
+
+    /* Meet The Team Section End */
 }
 
 @media screen and (max-width: 500px) {
@@ -238,30 +363,6 @@
         width: 100%;
     }
 
-    /* Wings Page Start */
-
-    #our__wings {
-        font-size: 0.5em;
-    }
-
-    #our__wings h1 {
-        font-size: 2em;
-    }
-
-    #our__wings p {
-        font-size: 0.8em;
-    }
-
-    #our__wings h2 {
-        font-size: 1em;
-    }
-
-    #our__wings .cards .card .card__bg {
-        height: 38em;
-    }
-
-    /* Wings Page End */
-
     /* Certificate Secton Start */
 
     .select {
@@ -282,12 +383,6 @@
     }
 
     /* Blogs Section End */
-}
-
-@media screen and (max-width: 560px) {
-    #cpc__youtube__videos .all__videos .small__videos {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 130px));
-    }
 }
 
 @media screen and (max-width: 350px) {
@@ -328,21 +423,25 @@
         font-size: 0.6rem;
     }
 
-    /* Wings Page Start */
+    /* Our Wings Section Start */
 
-    /* #our__wings h1 {
+    #our__wings .section__title {
+        font-size: 1.8em;
+    }
+
+    #our__wings .card__bg__text h1 {
         font-size: 2em;
     }
 
-    #our__wings p {
-        font-size: 0.6em;
+    #our__wings .card__bg__text p {
+        font-size: 0.5em;
     }
 
-    #our__wings h2 {
-        font-size: 0.9em;
-    } */
+    #our__wings .card__bg__text h2 {
+        font-size: 0.8em;
+    }
 
-    /* Wings Page End */
+    /* Our Wings Section End */
 
     /* Certificate Secton Start */
 

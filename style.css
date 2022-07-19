@@ -956,3 +956,177 @@ nav .menu li:last-child .social__links {
 }
 
 /* Blogs Section End */
+
+/* Meat The Team */
+
+#meet__the__team {
+    font-size: 1rem;
+    margin: 5em 0;
+}
+
+#meet__the__team .select {
+    margin-top: 7em;
+}
+
+.core__team__members {
+    margin-top: 5em;
+}
+
+.core__team__members .image,
+.team__members .image,
+.searched__member__info .image {
+    width: 10.656875em;
+    height: 10.656875em;
+    border: 0.25em solid #015694;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.member__info {
+    text-align: center;
+}
+
+.first__member__info {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.member__info h4 {
+    font-size: 1.3921em;
+    font-weight: 700;
+    color: #015694;
+    line-height: 1.3468em;
+    margin-top: 0.22em;
+}
+
+.member__info p {
+    font-weight: 500;
+    font-size: 0.895625em;
+    line-height: 1.1004em;
+    color: #898989;
+}
+
+.core__team__members .image img,
+.team__members .image img,
+.searched__member__info .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.core__team__members .member__infos,
+.team__members .member__infos {
+    margin-top: 1.25em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 190px));
+    justify-content: space-between;
+    grid-row-gap: 1.4375em;
+}
+
+.team__members {
+    margin-top: 9.108em;
+}
+
+#meet__the__team hr {
+    margin: 6.25em;
+    color: #A8A8A8;
+}
+
+.find__member {
+    font-size: 0.8rem;
+    padding: 3.625em 7em 3.9375em 7em;
+    background-color: #F4F4F4;
+}
+
+.search__member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.21875em;
+}
+
+.search__member .input__student__id {
+    display: flex;
+    align-items: center;
+    padding: 1.125em 2.1875em;
+    background-color: #015694;
+    border-radius: 0.21875em;
+}
+
+.search__member .input__student__id span {
+    display: inline-block;
+    font-size: 2.3075em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.search__member .input__student__id input {
+    font-size: 1.723em;
+    font-weight: 700;
+    color: #015694;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 0.11788em;
+    margin-left: 2.7363em;
+}
+
+.search__member button {
+    display: flex;
+    align-items: center;
+    font-size: 2.2143em;
+    font-weight: 300;
+    padding: 0.508em 1.4112em;
+    border: 1px solid #015694;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.search__member button i {
+    font-size: 1.2418em;
+    margin-left: 1.02325em;
+}
+
+.find__member h2 {
+    font-size: 2.869em;
+    font-weight: 700;
+    color: #4D4D4D;
+    margin-bottom: 0.7839em;
+}
+
+.find__member h2 span {
+    color: #015694;
+}
+
+.searched__member__info {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1.875em 0 2.5em 5.625em;
+    margin-top: 1.875em;
+}
+
+.searched__member__info__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.3125em;
+}
+
+.searched__member__info h4 {
+    font-size: 2.151875em;
+    font-weight: 700;
+    color: #015694;
+    line-height: 1.5103em;
+}
+
+.searched__member__info span {
+    font-size: 1.276875em;
+    font-weight: 300;
+    line-height: 1.5173em;
+}
+
+
+/* Meat The End */
