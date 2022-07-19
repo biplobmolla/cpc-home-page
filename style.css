@@ -209,7 +209,6 @@ nav .menu li:last-child .social__links {
 #events__links {
     background-color: #015694;
     font-size: 0.7rem;
-    margin-bottom: 5em;
 }
 
 #events__links .max__width {
@@ -276,6 +275,10 @@ nav .menu li:last-child .social__links {
     background: linear-gradient(89.98deg, rgba(217, 217, 217, 0) 0.01%, #EBEBEB 34.37%, #EBEBEB 67.69%, rgba(217, 217, 217, 0) 99.97%);
     word-wrap: wrap;
     text-align: center;
+}
+
+#wings__section .section__title {
+    margin-top: 1.8em;
 }
 
 .title__area {
