@@ -975,9 +975,8 @@ nav .menu li:last-child .social__links {
 .core__team__members .image,
 .team__members .image,
 .searched__member__info .image {
-    width: 10em;
-    height: 10em;
-    margin: 0 auto;
+    width: 10.656875em;
+    height: 10.656875em;
     border: 0.25em solid #015694;
     border-radius: 50%;
     overflow: hidden;
@@ -994,7 +993,7 @@ nav .menu li:last-child .social__links {
 }
 
 .member__info h4 {
-    font-size: 1.2em;
+    font-size: 1.3921em;
     font-weight: 700;
     color: #015694;
     line-height: 1.3468em;
@@ -1019,7 +1018,7 @@ nav .menu li:last-child .social__links {
 .team__members .member__infos {
     margin-top: 1.25em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px, 180px));
+    grid-template-columns: repeat(auto-fit, minmax(90px, 190px));
     justify-content: space-between;
     grid-row-gap: 1.4375em;
 }

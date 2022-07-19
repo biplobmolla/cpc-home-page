@@ -255,7 +255,6 @@
 
     .core__team__members .member__infos,
     .team__members .member__infos {
-        grid-gap: 20px;
         justify-content: space-evenly;
     }
 
@@ -310,7 +309,6 @@
     #meet__the__team hr {
         width: 100%;
         margin-left: 0;
-        margin-top: 50px;
     }
 
     .find__member {
@@ -323,12 +321,6 @@
 
     .search__member button {
         margin-top: 5px;
-    }
-
-    .core__team__members .member__infos,
-    .team__members .member__infos {
-        grid-gap: 20px;
-        justify-content: center;
     }
 
     /* Meet The Team Section End */
