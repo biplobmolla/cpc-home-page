@@ -89,7 +89,7 @@
         right: -200%;
         height: 100%;
         width: 300px;
-        background-color: red;
+        background: linear-gradient(225deg, rgba(255, 0, 0, 0.8) 20%, rgba(255, 215, 0, 0.8));
         flex-direction: column;
         padding-top: 30px;
     }
