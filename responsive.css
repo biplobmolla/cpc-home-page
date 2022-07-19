@@ -88,6 +88,7 @@
         top: 0;
         right: -200%;
         height: 100%;
+        width: 300px;
         background-color: red;
         flex-direction: column;
         padding-top: 30px;
