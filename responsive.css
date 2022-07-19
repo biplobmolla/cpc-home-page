@@ -65,7 +65,14 @@
 
     nav .menu li:last-child .social__links {
         display: block;
-        margin-top: 50px;
+        position: absolute;
+        bottom: 50px;
+        width: 100%;
+    }
+
+    nav .menu li:last-child .social__links ul {
+        width: 100%;
+        justify-content: center;
     }
 
     nav .menu li:last-child .social__links span {
@@ -317,6 +324,10 @@
 
     .search__member {
         flex-direction: column;
+    }
+
+    .input__student__id {
+        width: 100%;
     }
 
     .search__member button {
