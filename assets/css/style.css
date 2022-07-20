@@ -912,7 +912,8 @@ nav .menu li:last-child .social__links {
     background-color: #fff;
     border-top-right-radius: 0.203125em;
     border-bottom-right-radius: 0.203125em;
-    margin-left: 0.854em;
+    margin-left: .5em;
+    cursor: pointer;
 }
 
 .select:last-child {
@@ -990,6 +991,43 @@ nav .menu li:last-child .social__links {
 
 #meet__the__team .select {
     margin-top: 7em;
+}
+
+.select .pop__up__menu {
+    list-style: none;
+    width: 100%;
+    background-color: #ccc;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-50%);
+    opacity: 0;
+    display: none;
+    height: 230px;
+    overflow-y: auto;
+}
+
+.select .pop__up__menu li {
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #eee;
+    padding: 0.3125em 0.5208em;
+    margin: 0.2604em 0;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.select .pop__up__menu li:hover {
+    background-color: #fff;
+}
+
+.select .pop__up__menu i {
+    margin-left: 95%;
+    cursor: pointer;
 }
 
 .core__team__members {
@@ -1113,6 +1151,10 @@ nav .menu li:last-child .social__links {
     background: none;
     cursor: pointer;
     transition: 0.4s;
+}
+
+.search__member button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .search__member button i {
