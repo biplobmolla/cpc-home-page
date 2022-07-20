@@ -115,7 +115,7 @@ nav .menu li:last-child .social__links {
 #hero__section {
     font-size: 0.7rem;
     padding: 16.5em 0 13.125em 0;
-    background: linear-gradient(89.01deg, #FFFFFF 0.85%, rgba(255, 255, 255, 0) 99.18%), url("herobg.jpg");
+    background: linear-gradient(89.01deg, #FFFFFF 0.85%, rgba(255, 255, 255, 0) 99.18%), url("../images/herobg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -788,14 +788,29 @@ nav .menu li:last-child .social__links {
 #our__wings .card .card__bg {
     width: 100%;
     height: 50em;
-    background: linear-gradient(359.05deg, #FFFFFF 0.79%, rgba(255, 255, 255, 0) 99.16%), url('herobg.jpg');
     position: relative;
     border: 0;
     border-radius: 1em;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+}
+
+.card__linear__gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(359.05deg, rgba(255, 255, 255) 0.79%, rgba(255, 255, 255, 0) 99.16%);
+    z-index: 995;
+}
+
+#our__wings .card .card__bg img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 994;
 }
 
 #our__wings .card__bg__text {
@@ -804,6 +819,7 @@ nav .menu li:last-child .social__links {
     left: 50%;
     transform: translateX(-50%);
     bottom: 2.4125em;
+    z-index: 996;
 }
 
 #our__wings .card__bg__text h1 {
