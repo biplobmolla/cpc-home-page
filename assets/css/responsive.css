@@ -163,6 +163,16 @@
         font-size: 0.45rem;
     }
 
+    .core__team__members,
+    .team__members {
+        font-size: 0.6rem;
+    }
+
+    .core__team__members .member__infos,
+    .team__members .member__infos {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 120px));
+    }
+
     /* Meet The Team Section End */
 }
 

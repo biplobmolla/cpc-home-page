@@ -993,6 +993,7 @@ nav .menu li:last-child .social__links {
 }
 
 .core__team__members {
+    font-size: 1rem;
     margin-top: 5em;
 }
 
@@ -1004,6 +1005,7 @@ nav .menu li:last-child .social__links {
     border: 0.25em solid #015694;
     border-radius: 50%;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .member__info {
@@ -1031,6 +1033,10 @@ nav .menu li:last-child .social__links {
     color: #898989;
 }
 
+.searched__member__image {
+    margin: 0 !important;
+}
+
 .core__team__members .image img,
 .team__members .image img,
 .searched__member__info .image img {
@@ -1048,6 +1054,7 @@ nav .menu li:last-child .social__links {
 }
 
 .team__members {
+    font-size: 1rem;
     margin-top: 9.108em;
 }
 
