@@ -990,7 +990,7 @@ nav .menu li:last-child .social__links {
 
 #blogs .cards .card .blog__info p {
     font-size: 0.875em;
-    line-height: 1em;
+    line-height: 1.2em;
     color: gray;
     margin: 0.625em 0;
 }
@@ -1001,20 +1001,21 @@ nav .menu li:last-child .social__links {
 }
 
 .pagination__for__blogs {
+    font-size: 1rem;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px 0;
+    margin: 3.75em 0;
 }
 
 .pagination__for__blogs li {
-    font-size: 18px;
-    padding: 4px 15px;
+    font-size: 1.125em;
+    padding: 0.25em 1em;
     background-color: rgb(51, 51, 240);
     color: #fff;
     border: 0;
-    border-radius: 4px;
+    border-radius: 0.25em;
     transition: 0.4s;
     cursor: pointer;
     display: flex;
@@ -1022,14 +1023,12 @@ nav .menu li:last-child .social__links {
 }
 
 .pagination__for__blogs li:not(:first-child) {
-    margin-left: 10px;
+    margin-left: 0.625em;
 }
 
 .pagination__for__blogs li:hover {
     background-color: rgb(2, 2, 134);
 }
-
-
 
 /* Blogs Section End */
 

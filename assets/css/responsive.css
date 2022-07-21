@@ -399,6 +399,10 @@
         align-items: center;
     }
 
+    .pagination__for__blogs {
+        font-size: 0.7rem;
+    }
+
     #blogs .cards .card .blog__info {
         margin-left: 0;
     }
@@ -463,6 +467,14 @@
     }
 
     /* Our Wings Section End */
+
+    /* Blog Section Start */
+
+    .pagination__for__blogs {
+        font-size: 0.5rem;
+    }
+
+    /* Blog Section End */
 
     /* Certificate Secton Start */
 
