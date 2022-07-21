@@ -75,6 +75,26 @@ nav .menu li .active {
     font-size: 1em;
 }
 
+.social__links i {
+    transition: 0.4s;
+}
+
+.social__links li:nth-child(2):hover i {
+    color: #0E86E8;
+}
+
+.social__links li:nth-child(3):hover i {
+    color: #DC603D;
+}
+
+.social__links li:nth-child(4):hover i {
+    color: #0961B8;
+}
+
+.social__links li:nth-child(5):hover i {
+    color: red;
+}
+
 .social__links ul {
     display: flex;
     list-style: none;
@@ -979,6 +999,37 @@ nav .menu li:last-child .social__links {
     display: inline-block;
     margin: 0.625em 0;
 }
+
+.pagination__for__blogs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.pagination__for__blogs li {
+    font-size: 18px;
+    padding: 4px 15px;
+    background-color: rgb(51, 51, 240);
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.pagination__for__blogs li:not(:first-child) {
+    margin-left: 10px;
+}
+
+.pagination__for__blogs li:hover {
+    background-color: rgb(2, 2, 134);
+}
+
+
 
 /* Blogs Section End */
 
