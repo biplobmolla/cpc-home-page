@@ -8,6 +8,21 @@
     font-family: 'Poppins';
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: black;
+    color: #fff;
+}
+
 .max__width {
     width: 80%;
     margin: 0 auto;
@@ -155,9 +170,10 @@ nav .menu li:last-child .social__links {
 }
 
 #hero__section p {
-    font-size: 1.375em;
+    font-size: 1.5em;
+    font-weight: 700;
     max-width: 34.2272em;
-    line-height: 1.1em;
+    line-height: 1.3em;
     font-weight: 300;
     color: #646464;
     margin-bottom: 2.068em;
@@ -911,18 +927,27 @@ nav .menu li:last-child .social__links {
     display: flex;
 }
 
-.select .selected__value span {
+.selected__value__2 {
+    display: none !important;
+}
+
+.select .selected__value input,
+.select .selected__value__2 input {
     font-weight: 700;
     font-size: 1.97288em;
     color: #015694;
     background-color: #fff;
-    padding: 0.25em 1.75em;
+    padding: 0.25em 1em;
     margin-left: 1.25em;
+    border: 0;
     border-top-left-radius: 0.203125em;
     border-bottom-left-radius: 0.203125em;
+    outline: 0;
+    max-width: 130px;
 }
 
-.select .selected__value i {
+.select .selected__value i,
+.select .selected__value__2 i {
     font-size: 1.5625em;
     display: grid;
     place-items: center;
@@ -1032,7 +1057,7 @@ nav .menu li:last-child .social__links {
 
 /* Blogs Section End */
 
-/* Meat The Team */
+/* Meat The Team Start */
 
 #meet__the__team {
     font-size: 1rem;
@@ -1043,7 +1068,8 @@ nav .menu li:last-child .social__links {
     margin-top: 7em;
 }
 
-.select .pop__up__menu {
+.select .pop__up__menu,
+.select .pop__up__menu__2 {
     list-style: none;
     width: 100%;
     background-color: #ccc;
@@ -1059,7 +1085,8 @@ nav .menu li:last-child .social__links {
     overflow-y: auto;
 }
 
-.select .pop__up__menu li {
+.select .pop__up__menu li,
+.select .pop__up__menu__2 li {
     width: 100%;
     font-size: 1.2rem;
     background-color: #eee;
@@ -1071,11 +1098,13 @@ nav .menu li:last-child .social__links {
     transition: 0.4s;
 }
 
-.select .pop__up__menu li:hover {
+.select .pop__up__menu li:hover,
+.select .pop__up__menu__2 li:hover {
     background-color: #fff;
 }
 
-.select .pop__up__menu i {
+.select .pop__up__menu i,
+.select .pop__up__menu__2 i {
     margin-left: 95%;
     cursor: pointer;
 }
@@ -1252,5 +1281,23 @@ nav .menu li:last-child .social__links {
     line-height: 1.5173em;
 }
 
+.not__found__msg {
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #EEE;
+    border: 0;
+    border-radius: 0.25em;
+    padding: 2em;
+    color: rgba(0, 0, 0, 0.4);
+}
 
-/* Meat The End */
+.not__found__msg__2 {
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+.team__selected__value input {
+    padding: 0 0.3em !important;
+}
+
+/* Meat The Team End */

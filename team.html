@@ -264,8 +264,8 @@
             <div class="select">
                 <div class="select__content">
                     <span>Select Year</span>
-                    <div class="selected__value">
-                        <span>2022</span>
+                    <div class="selected__value team__selected__value">
+                        <input type="text" value="year" autocomplete="off" disabled />
                         <div class="select__button">
                             <i class="fa-solid fa-sort-down"></i>
                         </div>
@@ -286,7 +286,7 @@
                 <div class="search__member">
                     <div class="input__student__id">
                         <span>Student ID</span>
-                        <input type="number" />
+                        <input type="text" maxlength="11" />
                     </div>
                     <button type="submit">Find Now <i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
@@ -303,6 +303,7 @@
                         <span>Year: 2022-2023</span>
                     </div>
                 </div>
+                <!-- <h1 class="not__found__msg not__found__msg__2">No Details to Show</h1> -->
             </div>
         </div>
     </section>
@@ -382,6 +383,8 @@
         </div>
     </section>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
