@@ -28,24 +28,29 @@ var selectMenuListItem2 = document.querySelectorAll(".pop__up__menu__2 li");
 var selectedValueInput = document.querySelector(".selected__value input");
 var selectedValueInput2 = document.querySelector(".selected__value__2 input");
 
-for (let i = 0; i < 2; i++) {
+// for (let i = 0; i < 2; i++) {
+if (selecListShowBtn) {
     selecListShowBtn.addEventListener("click", () => {
         selectMenuList.style = "display: block; opacity: 1; transform: translateY(0);";
     });
-    if (selecListShowBtn2 != null) {
-        selecListShowBtn2.addEventListener("click", () => {
-            selectMenuList2.style = "display: block; opacity: 1; transform: translateY(0);";
-        });
-    }
+}
+if (selecListShowBtn2 != null) {
+    selecListShowBtn2.addEventListener("click", () => {
+        selectMenuList2.style = "display: block; opacity: 1; transform: translateY(0);";
+    });
+}
+
+if (selectCloseBtn) {
     selectCloseBtn.addEventListener("click", () => {
         selectMenuList.style = "opacity: 0; transform: translateY(-50%); display: none;";
     });
-    if (selectCloseBtn2 != null) {
-        selectCloseBtn2.addEventListener("click", () => {
-            selectMenuList2.style = "opacity: 0; transform: translateY(-50%); display: none;";
-        });
-    }
 }
+if (selectCloseBtn2 != null) {
+    selectCloseBtn2.addEventListener("click", () => {
+        selectMenuList2.style = "opacity: 0; transform: translateY(-50%); display: none;";
+    });
+}
+// }
 for (let j = 0; j < selectMenuListItem.length; j++) {
     selectMenuListItem[j].addEventListener("click", () => {
         selectedValueInput.value = selectMenuListItem[j].innerText;
@@ -128,15 +133,17 @@ function nextClicked() {
 
 var stuIdInput = document.querySelector(".input__student__id input");
 
-stuIdInput.addEventListener("keypress", (e) => {
-    var val = e.target.value;
-    if ((val.length == 3)) {
-        val += "-";
-        stuIdInput.value = val;
-    } else if (val.length == 6) {
-        val += "-";
-        stuIdInput.value = val;
-    }
-});
+if (stuIdInput) {
+    stuIdInput.addEventListener("keypress", (e) => {
+        var val = e.target.value;
+        if ((val.length == 3)) {
+            val += "-";
+            stuIdInput.value = val;
+        } else if (val.length == 6) {
+            val += "-";
+            stuIdInput.value = val;
+        }
+    });
+}
 
 // Team Member End

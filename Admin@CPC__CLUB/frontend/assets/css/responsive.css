@@ -1,0 +1,165 @@
+@media screen and (max-width: 1320px) {
+    /* Login Page Start */
+
+    .login__form {
+        width: 50%;
+    }
+
+    /* Login Page End */
+}
+
+@media screen and (max-width: 1200px) {
+
+    nav ul li .menu .nav__right {
+        display: block;
+    }
+
+    nav ul li .menu {
+        position: fixed;
+        height: 100%;
+        flex-direction: column;
+        width: 400px;
+        top: 0;
+        right: -200%;
+        background-color: green;
+        padding-top: 40px;
+        transition: 0.4s ease-in-out;
+        z-index: 1000;
+    }
+
+    nav ul li .menu li:last-child {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li .menu li a {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+
+    nav ul .nav__right {
+        display: none;
+    }
+
+    .menu__icon {
+        display: block;
+    }
+
+    nav ul li .menu .fa-xmark {
+        display: block;
+    }
+
+    nav .nav__right {
+        width: 90%;
+        text-align: center;
+    }
+
+    nav .nav__right .logout__btn {
+        background-color: gray;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* Login Page Start */
+
+    .login__form {
+        width: 80%;
+    }
+
+    /* Login Page End */
+}
+
+@media screen and (max-width: 700px) {
+    nav ul li .menu {
+        width: 100%;
+    }
+
+    /* Add User Start */
+
+    .user__table {
+        font-size: 0.7rem;
+    }
+
+    .add__user__modal,
+    .add__blog__modal {
+        width: 90%;
+    }
+
+    .add__user__modal .name {
+        flex-direction: column;
+    }
+
+    .add__user__modal .name .input__field:last-child {
+        margin-left: 0;
+    }
+
+    /* Add User End */
+}
+
+@media screen and (max-width: 500px) {
+    /* Login Page Start */
+
+    .login__form {
+        width: 90%;
+    }
+
+    /* Login Page End */
+}
+
+@media screen and (max-width: 450px) {
+    /* Login Page Start */
+
+    .login__form {
+        font-size: 0.7rem;
+    }
+
+    /* Login Page End */
+
+    /* User Page Start */
+
+    .user__page__h1 {
+        font-size: 1.5em;
+    }
+
+    .user__search__area {
+        font-size: 0.7rem;
+    }
+
+    .user__table {
+        font-size: 0.5rem;
+    }
+
+    /* User Page End */
+}
+
+@media screen and (max-width: 300px) {
+    /* Login Page Start */
+
+    .login__form {
+        font-size: 0.5rem;
+    }
+
+    /* Login Page End */
+
+    /* User Page Start */
+
+    .user__search__area {
+        font-size: 0.5rem;
+    }
+
+    .user__table {
+        font-size: 0.3rem;
+    }
+
+    /* User Page End */
+}
+
+@media screen and (max-width: 220px) {
+    /* Login Page Start */
+
+    .login__form {
+        font-size: 0.4rem;
+    }
+
+    /* Login Page End */
+}

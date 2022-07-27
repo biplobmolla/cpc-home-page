@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home || DIU CPC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="user__dark__bg dark__bg"></div>
+    <div class="add__user__modal">
+        <form action="" method="POST">
+            <i class="fa-solid fa-xmark close__add__user__modal"></i>
+            <h2>Add User</h2>
+            <div class="name">
+                <div class="input__field">
+                    <label for="addUserFname">First name:</label>
+                    <input id="addUserFname" type="text" placeholder="First name" />
+                </div>
+                <div class="input__field">
+                    <label for="addUserLname">First name:</label>
+                    <input id="addUserLname" type="text" placeholder="First name" />
+                </div>
+            </div>
+            <div class="input__field">
+                <label for="addUserEmail">Email or Phone:</label>
+                <input id="addUserEmail" type="text" placeholder="Email or Phone" />
+            </div>
+            <div class="input__field">
+                <label for="addUserStuId">Student ID:</label>
+                <input id="addUserStuId" type="text" placeholder="Student ID" />
+            </div>
+            <div class="input__field">
+                <label for="addUserPass">Password:</label>
+                <input id="addUserPass" type="text" placeholder="Password" />
+            </div>
+            <div class="input__field">
+                <select>
+                    <option selected>Role</option>
+                    <option value="admin">Admin</option>
+                    <option value="editor">Editor</option>
+                </select>
+            </div>
+            <div class="input__field">
+                <input type="submit" value="Add" />
+            </div>
+        </form>
+    </div>
+    <div class="message__modal">
+        <i class="fa-solid fa-xmark"></i>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis possimus rem vel sed recusandae, iusto
+            sapiente veritatis illum vitae repellendus adipisci delectus perferendis cumque consequuntur facilis ut
+            veniam vero, culpa dolores qui debitis sequi exercitationem voluptatem. Atque et modi similique, commodi
+            quia error! Repellat quis, quaerat eligendi reprehenderit iure laudantium!</span>
+        <div class="buttons">
+            <a href="#">Yes</a>
+            <a href="#">No</a>
+        </div>
+    </div>
+    <nav>
+        <div class="max__width">
+            <ul>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="assets/images/CPC-Logo.jpg" alt="" />
+                    </a>
+                </li>
+                <li class="menu__li">
+                    <ul class="menu">
+                        <i class="fa-solid fa-xmark"></i>
+                        <li>
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">Users</a>
+                        </li>
+                        <li>
+                            <a href="blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="events.html">Events</a>
+                        </li>
+                        <li class="nav__right">
+                            <a href="#" class="profile__btn">Profile</a>
+                            <a href="#" class="logout__btn">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__right">
+                    <a href="#" class="profile__btn">Profile</a>
+                    <a href="#" class="logout__btn">Logout</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bars menu__icon"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="user__search__area">
+        <div class="max__width">
+            <input type="text" placeholder="Search..." />
+            <a href="#" class="user__add__btn"><i class="fa-solid fa-plus"></i> Add User</a>
+        </div>
+    </div>
+    <h1 class="user__page__h1">List of all the users:</h1>
+    <table class="user__table">
+        <tr class="user__table__headings">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Joining Date</th>
+            <th>Created By</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody>
+            <tr class="user__table__data">
+                <td>34t48tt</td>
+                <td class="user__name">Tamim Ahmed</td>
+                <td class="user__role">Admin</td>
+                <td class="user__date">Admin</td>
+                <td class="user__created__by">Admin</td>
+                <td>
+                    <a href="#" class="user__edit__btn">Edit</a>
+                </td>
+                <td>
+                    <a href="#" class="user__delete__btn">Delete</a>
+                </td>
+            </tr>
+            <tr class="user__table__data">
+                <td>34t48tt</td>
+                <td class="user__name">Tamim Ahmed</td>
+                <td class="user__role">Admin</td>
+                <td class="user__date">Admin</td>
+                <td class="user__created__by">Admin</td>
+                <td class="user__table__btn">
+                    <a href="#" class="user__edit__btn">Edit</a>
+                </td>
+                <td class="user__table__btn">
+                    <a href="#" class="user__delete__btn">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

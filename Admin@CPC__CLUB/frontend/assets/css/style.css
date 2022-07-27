@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap');
+/* font-family: 'Edu NSW ACT Foundation', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.max__width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Navigation Section Start */
+
+nav {
+    font-size: 1rem;
+    padding: 0.8em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 4.5em;
+    height: 2em;
+}
+
+nav .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu__li {
+    width: 55%;
+}
+
+nav ul li .menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: start;
+}
+
+nav ul li .menu a {
+    font-size: 1em;
+    position: relative;
+    padding: 0.5em 1em;
+    overflow: hidden;
+    color: crimson;
+}
+
+nav ul li .menu a:hover {
+    color: gold;
+}
+
+nav ul li .menu a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.2em;
+    background-color: crimson;
+    left: -120%;
+    bottom: 0;
+    transition: 0.6s ease-in-out;
+}
+
+nav ul li .menu a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.2em;
+    background-color: crimson;
+    right: -120%;
+    bottom: 0;
+    transition: 0.6s ease-in-out;
+}
+
+nav ul li .menu a:hover::before {
+    left: 0;
+}
+
+nav ul li .menu a:hover::after {
+    right: 0;
+}
+
+nav ul li .menu li:not(:first-child) a {
+    margin-left: 4em;
+}
+
+nav ul li .active::before {
+    left: 0 !important;
+}
+
+nav ul li .active {
+    color: gold !important;
+}
+
+nav ul li .active::after {
+    right: 0 !important;
+}
+
+nav .logout__btn {
+    padding: 0.4em 1em;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 1em;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav .logout__btn:hover {
+    background-color: crimson;
+    transform: translateY(-5px);
+}
+
+nav .profile__btn {
+    color: #222;
+    padding: 0.5em 2em;
+    border: 0;
+    border-radius: 5em;
+    background: linear-gradient(45deg, #fff 10%, rgb(63, 255, 245) 80%, #fff 10%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+nav .profile__btn:hover {
+    transform: translateY(-5px);
+}
+
+nav ul li .menu .nav__right {
+    display: none;
+}
+
+.menu__icon {
+    display: none;
+    font-size: 25px;
+}
+
+nav ul li .menu .fa-xmark {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navigation Section End */
+
+/* Login Page Start */
+
+.login__page {
+    background-color: gray;
+}
+
+.login__form {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2.5em;
+    border: 0;
+    border-radius: 6px;
+    width: 30%;
+    background-color: #eee;
+}
+
+.login__form input {
+    font-size: 1.25em;
+    margin-top: 1.25em;
+    padding: 0.25em 0 0.25em 0.75em;
+    border: 0;
+    border-radius: 0.2em;
+    outline: 0;
+    font-weight: 600;
+}
+
+.login__form label {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login__form input[type="submit"] {
+    cursor: pointer;
+    font-weight: 800;
+    transition: 0.5s ease;
+    background-color: #ccc;
+}
+
+.login__form input[type="submit"]:hover {
+    background-color: rgb(165, 157, 157);
+}
+
+/* Login Page End */
+
+/* Users Page Start */
+
+.user__table {
+    font-size: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    transform: translateX(-50%);
+    width: 90%;
+    border: 0;
+    border-spacing: 5px;
+}
+
+.user__table th,
+.user__table td {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.4em;
+    border: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.user__table__headings {
+    background-color: purple;
+    color: #fff;
+}
+
+.user__table tbody .user__table__data:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.user__table tbody .user__table__data:nth-child(even) {
+    background-color: #eee;
+}
+
+.user__table tr td:first-child {
+    font-weight: 700;
+}
+
+.user__table tr td {
+    font-weight: 500;
+}
+
+.user__table tr td a {
+    text-decoration: underline;
+}
+
+.user__page__h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user__search__area {
+    font-size: 1rem;
+    padding: 1em 0;
+    background-color: red;
+}
+
+.user__search__area .max__width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user__search__area input {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.3em 0 0.3em 0.6em;
+    border: 0;
+    border-radius: 1em;
+    outline: none;
+}
+
+.user__add__btn {
+    background-color: green;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0.4em 0.6em;
+    border: 0;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+
+.user__add__btn:hover {
+    background-color: rgb(6, 77, 6);
+}
+
+.blog__title {
+    max-width: 200px;
+}
+
+.blog__desc {
+    max-width: 450px;
+    overflow-y: auto;
+}
+
+.user__table tr {
+    max-height: 100px !important;
+}
+
+.user__table tr td {
+    height: 100px !important;
+}
+
+.blog__add__btn {
+    font-size: 1.3em;
+    padding: 0.4em 1em;
+    background: blue;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.blog__add__btn:hover {
+    background-color: rgb(0, 0, 182);
+}
+
+.blog__table {
+    font-size: 0.7rem;
+}
+
+/* Users Page End */
+
+/* Add User Modal Start */
+
+.add__user__modal,
+.add__blog__modal {
+    font-size: 1rem;
+    position: fixed;
+    left: 50%;
+    bottom: -200%;
+    transform: translate(-50%, 50%);
+    z-index: 999;
+    background: linear-gradient(45deg, orange, red);
+    padding: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    transition: 0.5s ease-in;
+}
+
+.add__blog__modal {
+    width: 40%;
+}
+
+.add__user__modal .name {
+    display: flex;
+}
+
+.add__user__modal .input__field,
+.add__blog__modal .input__field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.add__user__modal .input__field label,
+.add__blog__modal .input__field label {
+    font-weight: 500;
+}
+
+.add__user__modal .input__field input,
+.add__user__modal .input__field select {
+    font-size: 1.4em;
+    margin-top: 5px;
+    padding: 0.3em 0 0.3em 0.8em;
+    border: 0;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.add__blog__modal .input__field input,
+.add__blog__modal .input__field textarea {
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 0.4em 0 0.4em 0.8em;
+    border: 0;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.add__blog__modal .input__field textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.add__user__modal .name .input__field:last-child {
+    margin-left: 2em;
+}
+
+.add__user__modal .fa-xmark,
+.add__blog__modal .fa-xmark {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.add__user__modal input[type="submit"],
+.add__blog__modal input[type="submit"] {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0.4em 0;
+    border: 0;
+    border-radius: 0.4em;
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.add__user__modal input[type="submit"]:hover,
+.add__blog__modal input[type="submit"]:hover {
+    background-color: rgb(1, 1, 167);
+}
+
+.dark__bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    display: none;
+}
+
+/* Add User Modal End */
+
+/* Message Modal Start */
+
+.message__modal {
+    font-size: 1rem;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: -200%;
+    padding: 1.4em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: black;
+    color: #fff;
+    z-index: 1001;
+    max-width: 400px;
+    transition: 0.4s;
+}
+
+.message__modal span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.message__modal .buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.message__modal .buttons a {
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.3em 0.8em;
+    border: 0;
+    border-radius: 0.2em;
+    background-color: red;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.message__modal .buttons a:first-child:hover {
+    background-color: rgb(207, 3, 3);
+}
+
+.message__modal .buttons a:first-child {
+    margin-right: 0.5em;
+}
+
+.message__modal .buttons a:last-child {
+    background-color: green;
+}
+
+.message__modal .buttons a:last-child:hover {
+    background-color: rgb(1, 88, 1);
+}
+
+.message__modal .fa-xmark {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Message Modal End */

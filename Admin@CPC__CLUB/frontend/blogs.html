@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home || DIU CPC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="blog__dark__bg dark__bg"></div>
+    <div class="add__blog__modal">
+        <form action="" method="POST">
+            <i class="fa-solid fa-xmark close__add__blog__modal"></i>
+            <h2>Add Blog</h2>
+            <div class="input__field">
+                <label for="addBlogTitle">Title:</label>
+                <input id="addBlogTitle" type="text" placeholder="Title" />
+            </div>
+            <div class="input__field">
+                <label for="addBlogDesc">Description:</label>
+                <textarea id="addBlogDesc" placeholder="Description"></textarea>
+            </div>
+            <div class="input__field">
+                <label for="addUserEmail">Image:</label>
+                <input id="addBlogImage" type="file" />
+            </div>
+            <div class="input__field">
+                <input type="submit" value="Add" />
+            </div>
+        </form>
+    </div>
+    <div class="message__modal">
+        <i class="fa-solid fa-xmark"></i>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis possimus rem vel sed recusandae, iusto
+            sapiente veritatis illum vitae repellendus adipisci delectus perferendis cumque consequuntur facilis ut
+            veniam vero, culpa dolores qui debitis sequi exercitationem voluptatem. Atque et modi similique, commodi
+            quia error! Repellat quis, quaerat eligendi reprehenderit iure laudantium!</span>
+        <div class="buttons">
+            <a href="#">Yes</a>
+            <a href="#">No</a>
+        </div>
+    </div>
+
+    <nav>
+        <div class="max__width">
+            <ul>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="assets/images/CPC-Logo.jpg" alt="" />
+                    </a>
+                </li>
+                <li class="menu__li">
+                    <ul class="menu">
+                        <i class="fa-solid fa-xmark"></i>
+                        <li>
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="users.html">Users</a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="events.html">Events</a>
+                        </li>
+                        <li class="nav__right">
+                            <a href="#" class="profile__btn">Profile</a>
+                            <a href="#" class="logout__btn">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__right">
+                    <a href="#" class="profile__btn">Profile</a>
+                    <a href="#" class="logout__btn">Logout</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bars menu__icon"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="user__search__area">
+        <div class="max__width">
+            <input type="text" placeholder="Search..." />
+            <a href="#" class="blog__add__btn">Add Blog <i class="fa-solid fa-plus"></i></a>
+        </div>
+    </div>
+    <h1 class="user__page__h1">List of all the blogs:</h1>
+    <table class="user__table blog__table">
+        <tr class="user__table__headings">
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>Author ID</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody>
+            <tr class="user__table__data" row="10">
+                <td>34t48tt</td>
+                <td class="blog__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, corporis!</td>
+                <td class="blog__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim hic porro ab natus
+                    repellat magnam
+                    quod illum beatae id eligendi, suscipit cupiditate? Nisi provident consectetur rerum fugit, nostrum
+                    quam labore maxime sint magnam error? Minima aperiam sequi atque numquam id? Officiis autem animi,
+                    necessitatibus totam similique itaque. Magnam cumque ipsa consectetur odio recusandae ad sequi,
+                    minus non commodi quaerat fugit nulla officiis debitis maiores saepe? Quae iusto accusamus nam,
+                    laboriosam itaque officiis dolor atque sunt architecto veniam aut et cumque quia suscipit eaque,
+                    ipsam odio! Officiis exercitationem distinctio blanditiis maiores. Vitae, repudiandae iste ullam,
+                    voluptatum fugiat quis quia deleniti placeat illo, nihil quam vel veritatis molestiae! Quibusdam
+                    minima nulla autem, quaerat nisi distinctio laborum inventore voluptates facilis deserunt laboriosam
+                    aliquid quod asperiores, amet voluptatem fugiat recusandae dignissimos corrupti excepturi? Maiores
+                    tenetur laboriosam minima nobis, corrupti eligendi, itaque, inventore deserunt magni suscipit cum?
+                    Adipisci aspernatur quo accusamus architecto sit dolore doloremque nesciunt voluptas, rerum beatae
+                    tenetur officia dolorum totam saepe delectus iusto blanditiis molestiae ipsa fugit debitis
+                    praesentium temporibus itaque doloribus. Porro recusandae adipisci doloribus pariatur possimus,
+                    minima nobis fugit temporibus quasi nostrum saepe? Omnis, officiis! Expedita consequatur aspernatur
+                    possimus, eveniet repudiandae pariatur animi maxime totam unde voluptas voluptate excepturi
+                    repellat.</td>
+                <td>Admin</td>
+                <td>Admin</td>
+                <td>
+                    <a href="#" class="blog__edit__btn">Edit</a>
+                </td>
+                <td>
+                    <a href="#" class="blog__delete__btn">Delete</a>
+                </td>
+            </tr>
+            <tr class="user__table__data">
+                <td>34t48tt</td>
+                <td>Tamim Ahmed</td>
+                <td>Admin</td>
+                <td>Admin</td>
+                <td>Admin</td>
+                <td class="user__table__btn">
+                    <a href="#" class="blog__edit__btn">Edit</a>
+                </td>
+                <td class="user__table__btn">
+                    <a href="#" class="blog__delete__btn">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
