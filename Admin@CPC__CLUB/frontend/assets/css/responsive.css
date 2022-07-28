@@ -80,16 +80,15 @@
         font-size: 0.7rem;
     }
 
-    .add__user__modal,
-    .add__blog__modal {
+    .add__modal {
         width: 90%;
     }
 
-    .add__user__modal .name {
+    .add__modal .name {
         flex-direction: column;
     }
 
-    .add__user__modal .name .input__field:last-child {
+    .add__modal .name .input__field:last-child {
         margin-left: 0;
     }
 
@@ -104,6 +103,14 @@
     }
 
     /* Login Page End */
+
+    /* Modal Start */
+
+    .add__modal input[type="file"] {
+        font-size: 18px;
+    }
+
+    /* Modal End */
 }
 
 @media screen and (max-width: 450px) {
@@ -149,6 +156,10 @@
 
     .user__table {
         font-size: 0.3rem;
+    }
+
+    .add__modal input[type="file"] {
+        font-size: 14px;
     }
 
     /* User Page End */

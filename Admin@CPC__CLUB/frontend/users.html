@@ -13,43 +13,41 @@
 
 <body>
     <div class="user__dark__bg dark__bg"></div>
-    <div class="add__user__modal">
-        <form action="" method="POST">
-            <i class="fa-solid fa-xmark close__add__user__modal"></i>
-            <h2>Add User</h2>
-            <div class="name">
-                <div class="input__field">
-                    <label for="addUserFname">First name:</label>
-                    <input id="addUserFname" type="text" placeholder="First name" />
-                </div>
-                <div class="input__field">
-                    <label for="addUserLname">First name:</label>
-                    <input id="addUserLname" type="text" placeholder="First name" />
-                </div>
+    <div class="add__modal">
+        <i class="fa-solid fa-xmark close__add__modal"></i>
+        <h2>Add User</h2>
+        <div class="name">
+            <div class="input__field">
+                <label for="addUserFname">First name:</label>
+                <input id="addUserFname" type="text" placeholder="First name" />
             </div>
             <div class="input__field">
-                <label for="addUserEmail">Email or Phone:</label>
-                <input id="addUserEmail" type="text" placeholder="Email or Phone" />
+                <label for="addUserLname">Last name:</label>
+                <input id="addUserLname" type="text" placeholder="Last name" />
             </div>
-            <div class="input__field">
-                <label for="addUserStuId">Student ID:</label>
-                <input id="addUserStuId" type="text" placeholder="Student ID" />
-            </div>
-            <div class="input__field">
-                <label for="addUserPass">Password:</label>
-                <input id="addUserPass" type="text" placeholder="Password" />
-            </div>
-            <div class="input__field">
-                <select>
-                    <option selected>Role</option>
-                    <option value="admin">Admin</option>
-                    <option value="editor">Editor</option>
-                </select>
-            </div>
-            <div class="input__field">
-                <input type="submit" value="Add" />
-            </div>
-        </form>
+        </div>
+        <div class="input__field">
+            <label for="addUserEmail">Email or Phone:</label>
+            <input id="addUserEmail" type="text" placeholder="Email or Phone" />
+        </div>
+        <div class="input__field">
+            <label for="addUserStuId">Student ID:</label>
+            <input id="addUserStuId" type="text" placeholder="Student ID" />
+        </div>
+        <div class="input__field">
+            <label for="addUserPass">Password:</label>
+            <input id="addUserPass" type="text" placeholder="Password" />
+        </div>
+        <div class="input__field">
+            <select>
+                <option selected>Role</option>
+                <option value="admin">Admin</option>
+                <option value="editor">Editor</option>
+            </select>
+        </div>
+        <div class="input__field user__edit__btn">
+            <input type="submit" value="Add" id="addUser" />
+        </div>
     </div>
     <div class="message__modal">
         <i class="fa-solid fa-xmark"></i>
@@ -104,7 +102,7 @@
     <div class="user__search__area">
         <div class="max__width">
             <input type="text" placeholder="Search..." />
-            <a href="#" class="user__add__btn"><i class="fa-solid fa-plus"></i> Add User</a>
+            <a href="#" class="add__btn"><i class="fa-solid fa-plus"></i> Add User</a>
         </div>
     </div>
     <h1 class="user__page__h1">List of all the users:</h1>

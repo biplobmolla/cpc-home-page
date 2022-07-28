@@ -300,7 +300,7 @@ nav ul li .menu .fa-xmark {
     outline: none;
 }
 
-.user__add__btn {
+.add__btn {
     background-color: green;
     color: #fff;
     font-size: 1.2em;
@@ -311,7 +311,7 @@ nav ul li .menu .fa-xmark {
     transition: 0.4s ease;
 }
 
-.user__add__btn:hover {
+.add__btn:hover {
     background-color: rgb(6, 77, 6);
 }
 
@@ -356,8 +356,7 @@ nav ul li .menu .fa-xmark {
 
 /* Add User Modal Start */
 
-.add__user__modal,
-.add__blog__modal {
+.add__modal {
     font-size: 1rem;
     position: fixed;
     left: 50%;
@@ -375,24 +374,22 @@ nav ul li .menu .fa-xmark {
     width: 40%;
 }
 
-.add__user__modal .name {
+.add__modal .name {
     display: flex;
 }
 
-.add__user__modal .input__field,
-.add__blog__modal .input__field {
+.add__modal .input__field {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
 
-.add__user__modal .input__field label,
-.add__blog__modal .input__field label {
+.add__modal .input__field label {
     font-weight: 500;
 }
 
-.add__user__modal .input__field input,
-.add__user__modal .input__field select {
+.add__modal .input__field input,
+.add__modal .input__field select {
     font-size: 1.4em;
     margin-top: 5px;
     padding: 0.3em 0 0.3em 0.8em;
@@ -411,17 +408,16 @@ nav ul li .menu .fa-xmark {
     outline: none;
 }
 
-.add__blog__modal .input__field textarea {
+.add__modal .input__field textarea {
     height: 200px;
     resize: vertical;
 }
 
-.add__user__modal .name .input__field:last-child {
+.add__modal .name .input__field:last-child {
     margin-left: 2em;
 }
 
-.add__user__modal .fa-xmark,
-.add__blog__modal .fa-xmark {
+.add__modal .fa-xmark {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -430,8 +426,7 @@ nav ul li .menu .fa-xmark {
     color: #fff;
 }
 
-.add__user__modal input[type="submit"],
-.add__blog__modal input[type="submit"] {
+.add__modal input[type="submit"] {
     font-size: 1.2em;
     font-weight: 700;
     padding: 0.4em 0;
@@ -443,8 +438,7 @@ nav ul li .menu .fa-xmark {
     transition: 0.4s;
 }
 
-.add__user__modal input[type="submit"]:hover,
-.add__blog__modal input[type="submit"]:hover {
+.add__modal input[type="submit"]:hover {
     background-color: rgb(1, 1, 167);
 }
 
@@ -528,3 +522,38 @@ nav ul li .menu .fa-xmark {
 }
 
 /* Message Modal End */
+
+/* Dashboard Section Start */
+
+.dashboard .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+    grid-gap: 0.8em;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.dashboard .cards .card {
+    font-size: 1.6rem;
+    padding: 1.5em;
+    background: #ccc;
+    border: 0;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.dashboard .cards .card h4 {
+    font-size: 1.3em;
+}
+
+.dashboard .cards .card span {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+
+/* Dashboard Section End */

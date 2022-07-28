@@ -13,26 +13,24 @@
 
 <body>
     <div class="blog__dark__bg dark__bg"></div>
-    <div class="add__blog__modal">
-        <form action="" method="POST">
-            <i class="fa-solid fa-xmark close__add__blog__modal"></i>
-            <h2>Add Blog</h2>
-            <div class="input__field">
-                <label for="addBlogTitle">Title:</label>
-                <input id="addBlogTitle" type="text" placeholder="Title" />
-            </div>
-            <div class="input__field">
-                <label for="addBlogDesc">Description:</label>
-                <textarea id="addBlogDesc" placeholder="Description"></textarea>
-            </div>
-            <div class="input__field">
-                <label for="addUserEmail">Image:</label>
-                <input id="addBlogImage" type="file" />
-            </div>
-            <div class="input__field">
-                <input type="submit" value="Add" />
-            </div>
-        </form>
+    <div class="add__modal add__blog__modal">
+        <i class="fa-solid fa-xmark close__add__modal"></i>
+        <h2>Add Blog</h2>
+        <div class="input__field">
+            <label for="addBlogTitle">Title:</label>
+            <input id="addBlogTitle" type="text" placeholder="Title" />
+        </div>
+        <div class="input__field">
+            <label for="addBlogDesc">Description:</label>
+            <textarea id="addBlogDesc" placeholder="Description"></textarea>
+        </div>
+        <div class="input__field">
+            <label for="addUserEmail">Image:</label>
+            <input id="addBlogImage" type="file" />
+        </div>
+        <div class="input__field">
+            <input type="submit" value="Add" id="addBlog" />
+        </div>
     </div>
     <div class="message__modal">
         <i class="fa-solid fa-xmark"></i>
@@ -89,7 +87,7 @@
     <div class="user__search__area">
         <div class="max__width">
             <input type="text" placeholder="Search..." />
-            <a href="#" class="blog__add__btn">Add Blog <i class="fa-solid fa-plus"></i></a>
+            <a href="#" class="add__btn blog__add__btn">Add Blog <i class="fa-solid fa-plus"></i></a>
         </div>
     </div>
     <h1 class="user__page__h1">List of all the blogs:</h1>

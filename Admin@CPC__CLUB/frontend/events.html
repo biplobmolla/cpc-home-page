@@ -12,6 +12,35 @@
 </head>
 
 <body>
+    <div class="add__modal">
+        <i class="fa-solid fa-xmark close__add__modal"></i>
+        <h2>Add Event</h2>
+        <div class="name">
+            <div class="input__field">
+                <label for="addEventFname">Event Name:</label>
+                <input id="addEventFname" type="text" placeholder="Event name" />
+            </div>
+            <div class="input__field">
+                <label for="addEventLname">Post Link:</label>
+                <input id="addEventLname" type="text" placeholder="Post link" />
+            </div>
+        </div>
+        <div class="input__field">
+            <label for="addEventEmail">Date:</label>
+            <input id="addEventEmail" type="text" placeholder="Date" />
+        </div>
+        <div class="input__field">
+            <label for="addEventStuId">Time:</label>
+            <input id="addEventStuId" type="text" placeholder="Time" />
+        </div>
+        <div class="input__field">
+            <label for="addEventPass">Image:</label>
+            <input id="addEventPass" type="file" />
+        </div>
+        <div class="input__field">
+            <input type="submit" value="Add" id="addEvent" />
+        </div>
+    </div>
     <div class="event__dark__bg dark__bg"></div>
     <div class="message__modal">
         <i class="fa-solid fa-xmark"></i>
@@ -68,7 +97,7 @@
     <div class="user__search__area">
         <div class="max__width">
             <input type="text" placeholder="Search..." />
-            <a href="#" class="user__add__btn"><i class="fa-solid fa-plus"></i> Add User</a>
+            <a href="#" class="add__btn"><i class="fa-solid fa-plus"></i> Add Event</a>
         </div>
     </div>
     <h1 class="user__page__h1">List of all the users:</h1>

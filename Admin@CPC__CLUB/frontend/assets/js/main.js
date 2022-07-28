@@ -17,60 +17,51 @@ for (let i = 0; i < navCloseIcon.length; i++) {
 // Add User Modal
 
 
-var addUserBtn = document.querySelector(".user__add__btn");
-var addUserModal = document.querySelector(".add__user__modal");
+var addBtn = document.querySelector(".add__btn");
+var addModal = document.querySelector(".add__modal");
 var darkBg = document.querySelector(".dark__bg");
-var closeAddUserModal = document.querySelector(".close__add__user__modal");
+var closeAddModal = document.querySelector(".close__add__modal");
 
 
-if (addUserBtn) {
-    addUserBtn.addEventListener("click", () => {
+if (addBtn) {
+    addBtn.addEventListener("click", () => {
         darkBg.style = "display: block;";
-        addUserModal.style = "bottom: 50%;";
+        addModal.style = "bottom: 50%;";
     });
 }
 
-if (closeAddUserModal) {
-    closeAddUserModal.addEventListener("click", () => {
-        addUserModal.style = "bottom: -200%;";
+if (closeAddModal) {
+    closeAddModal.addEventListener("click", () => {
+        addModal.style = "bottom: -200%;";
         darkBg.style = "display: none;";
     });
 }
 
 // Add Blog Modal
 
-var addBlogBtn = document.querySelector(".blog__add__btn");
-var addBlogModal = document.querySelector(".add__blog__modal");
+var addBtn = document.querySelector(".add__btn");
 var darkBg = document.querySelector(".dark__bg");
-var closeAddBlogModal = document.querySelector(".close__add__blog__modal");
-
-if (addBlogBtn) {
-    addBlogBtn.addEventListener("click", () => {
-        darkBg.style = "display: block;";
-        addBlogModal.style = "bottom: 50%;";
-    });
-}
-
-if (closeAddBlogModal) {
-    closeAddBlogModal.addEventListener("click", () => {
-        addBlogModal.style = "bottom: -200%;";
-        darkBg.style = "display: none;";
-    });
-}
-
 var userEditBtn = document.querySelectorAll(".user__edit__btn");
 var eventEditBtn = document.querySelectorAll(".event__edit__btn");
 var blogEditBtn = document.querySelectorAll(".blog__edit__btn");
+var userUpdateBtn = document.querySelector(".user__edit__btn");
+console.log(userEditBtn);
 
 if (userEditBtn) {
     for (let i = 0; i < userEditBtn.length; i++) {
         userEditBtn[i].addEventListener("click", () => {
+            userUpdateBtn.innerHTML = "<input type='submit' value='Update' id='updateUser' />";
             darkBg.style = "display: block;";
-            // var userName = document.querySelector(".user__name").innerText.split(" ");
-            // var userFname = tmpName[0];
-            // var userLname = tmpName[1];
-            // var userRole = document.querySelector(".user__role").innerText;
-            addUserModal.style = "bottom: 50%;";
+            addModal.style = "bottom: 50%;";
+        });
+    }
+}
+
+if (eventEditBtn) {
+    for (let i = 0; i < eventEditBtn.length; i++) {
+        eventEditBtn[i].addEventListener("click", () => {
+            darkBg.style = "display: block;";
+            addBlogModal.style = "bottom: 50%;";
         });
     }
 }
@@ -78,19 +69,11 @@ if (userEditBtn) {
 if (blogEditBtn) {
     for (let i = 0; i < blogEditBtn.length; i++) {
         blogEditBtn[i].addEventListener("click", () => {
-            addBlogModal.style = "bottom: -200%;";
-            darkBg.style = "display: none;";
+            darkBg.style = "display: block;";
+            addModal.style = "bottom: 50%;";
         });
     }
 }
-
-// if (eventEditBtn) {
-//     for (let i = 0; i < eventEditBtn.length; i++) {
-//         eventEditBtn[i].addEventListener("click", () => {
-
-//         });
-//     }
-// }
 
 // Message Modal Start
 
@@ -155,3 +138,69 @@ for (let i = 0; i < 2; i++) {
 
 
 // Message Modal End
+
+
+
+// Add Start
+
+// Add User Start
+
+var addUserBtn = document.querySelector("#addUser");
+
+addUserBtn.addEventListener("click", () => {
+
+})
+
+// Add User End
+// Add Blog Start
+
+// var addBlogBtn = document.querySelector("#addBlog");
+
+// addBlogBtn.addEventListener("click", () => {
+
+// })
+
+// Add Blog End
+// Add Event Start
+
+// var addEventBtn = document.querySelector("#addEvent");
+
+// addEventBtn.addEventListener("click", () => {
+
+// })
+
+// Add Event End
+
+
+
+
+// Edit User Start
+
+// var addUserBtn = document.querySelector("#addUser");
+
+// addUserBtn.addEventListener("click", () => {
+
+// })
+
+// Edit User End
+// Edit Blog Start
+
+// var addBlogBtn = document.querySelector("#addBlog");
+
+// addBlogBtn.addEventListener("click", () => {
+
+// })
+
+// Edit Blog End
+// Edit Event Start
+
+// var addEventBtn = document.querySelector("#addEvent");
+
+// addEventBtn.addEventListener("click", () => {
+
+// })
+
+// Add Event End
+
+
+// Add End
